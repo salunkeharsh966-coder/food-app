@@ -1,0 +1,483 @@
+{
+  "categories": [
+    {
+      "slug": "starters",
+      "name": "Small Plates",
+      "tagline": "Tandoor-fired things to tear and share",
+      "count": 8
+    },
+    {
+      "slug": "mains",
+      "name": "From the Handi",
+      "tagline": "Slow-simmered curries and dum biryanis",
+      "count": 9
+    },
+    {
+      "slug": "breads",
+      "name": "Breads",
+      "tagline": "Straight off the clay wall of the tandoor",
+      "count": 2
+    },
+    {
+      "slug": "desserts",
+      "name": "Sweets",
+      "tagline": "The part everyone pretends they have room for",
+      "count": 3
+    },
+    {
+      "slug": "drinks",
+      "name": "To Drink",
+      "tagline": "Chai, lassi, and cold things for hot days",
+      "count": 2
+    }
+  ],
+  "total": 24,
+  "items": [
+    {
+      "id": 1,
+      "slug": "punjabi-samosa",
+      "name": "Punjabi Samosa",
+      "description": "Two fat, flaky parcels packed with spiced potato and green peas, fried to a deep amber. Served with tamarind chutney and a scatter of chaat masala.",
+      "price": 180,
+      "category": "starters",
+      "image": "samosa.jpg",
+      "isVeg": true,
+      "spiceLevel": 1,
+      "rating": 4.8,
+      "reviewCount": 412,
+      "prepMinutes": 12,
+      "isSignature": false,
+      "allergens": [
+        "Gluten"
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "paneer-pakora",
+      "name": "Paneer Pakora",
+      "description": "Thick slices of fresh paneer in a gram-flour batter with ajwain and cracked pepper. Golden outside, still soft in the middle, with mint chutney for dipping.",
+      "price": 260,
+      "category": "starters",
+      "image": "paneer-pakora.jpg",
+      "isVeg": true,
+      "spiceLevel": 1,
+      "rating": 4.7,
+      "reviewCount": 268,
+      "prepMinutes": 14,
+      "isSignature": false,
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "dahi-ke-kebab",
+      "name": "Dahi ke Kebab",
+      "description": "Hung curd, roasted cashew and green chilli, set and pan-seared until the outside barely holds. They collapse the moment you bite. Pomegranate and mint on top.",
+      "price": 290,
+      "category": "starters",
+      "image": "dahi-ke-kebab.jpg",
+      "isVeg": true,
+      "spiceLevel": 0,
+      "rating": 4.9,
+      "reviewCount": 194,
+      "prepMinutes": 16,
+      "isSignature": true,
+      "allergens": [
+        "Dairy",
+        "Nuts"
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "amritsari-fish-fry",
+      "name": "Amritsari Fish Fry",
+      "description": "River fish in a gram-flour and carom-seed crust, fried hot and fast so the edges shatter. Lemon, raw onion rings, and a green chutney sharp with coriander.",
+      "price": 420,
+      "category": "starters",
+      "image": "amritsari-fish-fry.jpg",
+      "isVeg": false,
+      "spiceLevel": 2,
+      "rating": 4.7,
+      "reviewCount": 231,
+      "prepMinutes": 18,
+      "isSignature": false,
+      "allergens": [
+        "Fish",
+        "Gluten"
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "chicken-65",
+      "name": "Chicken 65",
+      "description": "Bites of chicken in a chilli-red yoghurt marinade, flash-fried and tossed with curry leaves, dried red chillies and a spoon of cool yoghurt to calm it down.",
+      "price": 380,
+      "category": "starters",
+      "image": "chicken-65.jpg",
+      "isVeg": false,
+      "spiceLevel": 3,
+      "rating": 4.8,
+      "reviewCount": 356,
+      "prepMinutes": 16,
+      "isSignature": false,
+      "allergens": [
+        "Dairy"
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "paneer-tikka",
+      "name": "Paneer Tikka",
+      "description": "Paneer cubes in a hung-curd and kashmiri chilli marinade, skewered with peppers and onion, and left in the tandoor until the edges blacken.",
+      "price": 340,
+      "category": "starters",
+      "image": "paneer-tikka.jpg",
+      "isVeg": true,
+      "spiceLevel": 2,
+      "rating": 4.8,
+      "reviewCount": 487,
+      "prepMinutes": 18,
+      "isSignature": false,
+      "allergens": [
+        "Dairy"
+      ]
+    },
+    {
+      "id": 7,
+      "slug": "tandoori-chicken",
+      "name": "Tandoori Chicken",
+      "description": "Half a chicken, scored deep, marinated overnight in yoghurt, ginger and deggi mirch, then charred in the tandoor. Smoky all the way to the bone.",
+      "price": 520,
+      "category": "starters",
+      "image": "tandoori-chicken.jpg",
+      "isVeg": false,
+      "spiceLevel": 2,
+      "rating": 4.9,
+      "reviewCount": 621,
+      "prepMinutes": 24,
+      "isSignature": true,
+      "allergens": [
+        "Dairy"
+      ]
+    },
+    {
+      "id": 8,
+      "slug": "chicken-tikka",
+      "name": "Chicken Tikka",
+      "description": "Boneless thigh in a double marinade — ginger-garlic first, then yoghurt and spice — skewered and blistered. Six pieces, a lemon wedge, and nothing else needed.",
+      "price": 440,
+      "category": "starters",
+      "image": "chicken-tikka.jpg",
+      "isVeg": false,
+      "spiceLevel": 2,
+      "rating": 4.8,
+      "reviewCount": 402,
+      "prepMinutes": 20,
+      "isSignature": false,
+      "allergens": [
+        "Dairy"
+      ]
+    },
+    {
+      "id": 9,
+      "slug": "butter-chicken",
+      "name": "Butter Chicken",
+      "description": "Tandoori chicken folded into a tomato gravy that has been simmering since morning, finished with cream and crushed kasuri methi. Rich, faintly sweet, impossible to stop.",
+      "price": 540,
+      "category": "mains",
+      "image": "butter-chicken.jpg",
+      "isVeg": false,
+      "spiceLevel": 1,
+      "rating": 4.9,
+      "reviewCount": 1284,
+      "prepMinutes": 22,
+      "isSignature": true,
+      "allergens": [
+        "Dairy",
+        "Nuts"
+      ]
+    },
+    {
+      "id": 10,
+      "slug": "dal-makhani",
+      "name": "Dal Makhani",
+      "description": "Whole black urad lentils, soaked overnight and cooked low for six hours with butter and a little smoke. The one dish our kitchen will not rush.",
+      "price": 380,
+      "category": "mains",
+      "image": "dal-makhani.jpg",
+      "isVeg": true,
+      "spiceLevel": 1,
+      "rating": 4.9,
+      "reviewCount": 902,
+      "prepMinutes": 20,
+      "isSignature": true,
+      "allergens": [
+        "Dairy"
+      ]
+    },
+    {
+      "id": 11,
+      "slug": "paneer-butter-masala",
+      "name": "Paneer Butter Masala",
+      "description": "Soft paneer in a tomato and cashew gravy with a slow bloom of red chilli, a swirl of cream and a tangle of ginger julienne on top.",
+      "price": 460,
+      "category": "mains",
+      "image": "paneer-butter-masala.jpg",
+      "isVeg": true,
+      "spiceLevel": 1,
+      "rating": 4.7,
+      "reviewCount": 544,
+      "prepMinutes": 20,
+      "isSignature": false,
+      "allergens": [
+        "Dairy",
+        "Nuts"
+      ]
+    },
+    {
+      "id": 12,
+      "slug": "palak-paneer",
+      "name": "Palak Paneer",
+      "description": "Spinach blanched and ground coarse — never blended smooth — with garlic, green chilli and a little cream, holding cubes of paneer that stay white against the green.",
+      "price": 420,
+      "category": "mains",
+      "image": "palak-paneer.jpg",
+      "isVeg": true,
+      "spiceLevel": 1,
+      "rating": 4.6,
+      "reviewCount": 388,
+      "prepMinutes": 18,
+      "isSignature": false,
+      "allergens": [
+        "Dairy",
+        "Nuts"
+      ]
+    },
+    {
+      "id": 13,
+      "slug": "malai-kofta",
+      "name": "Malai Kofta",
+      "description": "Paneer and potato dumplings with cashew and raisin at the centre, fried gently and laid in a pale, faintly sweet cream gravy. Soft enough to cut with a spoon.",
+      "price": 470,
+      "category": "mains",
+      "image": "malai-kofta.jpg",
+      "isVeg": true,
+      "spiceLevel": 0,
+      "rating": 4.7,
+      "reviewCount": 276,
+      "prepMinutes": 24,
+      "isSignature": false,
+      "allergens": [
+        "Dairy",
+        "Nuts",
+        "Gluten"
+      ]
+    },
+    {
+      "id": 14,
+      "slug": "kadai-chicken",
+      "name": "Kadai Chicken",
+      "description": "Chicken cooked hot and dry in an iron karahi with onion, tomato, green chilli and coarsely crushed coriander seed. Loud, peppery, and best with roti.",
+      "price": 500,
+      "category": "mains",
+      "image": "kadai-chicken.jpg",
+      "isVeg": false,
+      "spiceLevel": 3,
+      "rating": 4.7,
+      "reviewCount": 341,
+      "prepMinutes": 22,
+      "isSignature": false,
+      "allergens": [
+        "Dairy"
+      ]
+    },
+    {
+      "id": 15,
+      "slug": "rogan-josh",
+      "name": "Rogan Josh",
+      "description": "Lamb shoulder braised until it gives way, in a Kashmiri gravy of dried red chilli, fennel and asafoetida. The heat arrives late and stays a while.",
+      "price": 620,
+      "category": "mains",
+      "image": "rogan-josh.jpg",
+      "isVeg": false,
+      "spiceLevel": 2,
+      "rating": 4.8,
+      "reviewCount": 298,
+      "prepMinutes": 28,
+      "isSignature": false,
+      "allergens": [
+        "Dairy"
+      ]
+    },
+    {
+      "id": 16,
+      "slug": "hyderabadi-biryani",
+      "name": "Hyderabadi Chicken Biryani",
+      "description": "Layered raw-dum biryani — marinated chicken at the bottom, half-cooked basmati with saffron milk on top, sealed and finished on low heat. Served with mirchi ka salan and raita.",
+      "price": 580,
+      "category": "mains",
+      "image": "hyderabadi-biryani.jpg",
+      "isVeg": false,
+      "spiceLevel": 2,
+      "rating": 4.9,
+      "reviewCount": 1103,
+      "prepMinutes": 30,
+      "isSignature": true,
+      "allergens": [
+        "Dairy",
+        "Nuts"
+      ]
+    },
+    {
+      "id": 17,
+      "slug": "mutton-biryani",
+      "name": "Mutton Biryani",
+      "description": "The same dum method, with mutton on the bone so the rice takes on everything. Long grain, separate and stained orange in places. Fried onion and mint throughout.",
+      "price": 680,
+      "category": "mains",
+      "image": "mutton-biryani.jpg",
+      "isVeg": false,
+      "spiceLevel": 2,
+      "rating": 4.8,
+      "reviewCount": 466,
+      "prepMinutes": 34,
+      "isSignature": false,
+      "allergens": [
+        "Dairy",
+        "Nuts"
+      ]
+    },
+    {
+      "id": 18,
+      "slug": "garlic-naan",
+      "name": "Garlic Butter Naan",
+      "description": "Stretched by hand and slapped onto the clay wall of the tandoor. Brushed with garlic butter the second it comes out, so it arrives glossy and blistered.",
+      "price": 90,
+      "category": "breads",
+      "image": "garlic-naan.jpg",
+      "isVeg": true,
+      "spiceLevel": 0,
+      "rating": 4.8,
+      "reviewCount": 731,
+      "prepMinutes": 8,
+      "isSignature": false,
+      "allergens": [
+        "Gluten",
+        "Dairy"
+      ]
+    },
+    {
+      "id": 19,
+      "slug": "tandoori-roti",
+      "name": "Tandoori Roti",
+      "description": "Whole wheat, no yeast, cooked until it puffs and spots. Plain and sturdy — the right thing to have under a gravy that deserves it.",
+      "price": 60,
+      "category": "breads",
+      "image": "tandoori-roti.jpg",
+      "isVeg": true,
+      "spiceLevel": 0,
+      "rating": 4.6,
+      "reviewCount": 402,
+      "prepMinutes": 7,
+      "isSignature": false,
+      "allergens": [
+        "Gluten"
+      ]
+    },
+    {
+      "id": 20,
+      "slug": "gulab-jamun",
+      "name": "Gulab Jamun",
+      "description": "Three warm dumplings of reduced milk, fried dark and left to drink up cardamom and rose syrup until they are almost too soft to lift.",
+      "price": 200,
+      "category": "desserts",
+      "image": "gulab-jamun.jpg",
+      "isVeg": true,
+      "spiceLevel": 0,
+      "rating": 4.8,
+      "reviewCount": 588,
+      "prepMinutes": 10,
+      "isSignature": false,
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ]
+    },
+    {
+      "id": 21,
+      "slug": "rasmalai",
+      "name": "Rasmalai",
+      "description": "Flat discs of fresh chenna poached in milk, then chilled in saffron and cardamom cream with pistachio and almond scattered over. Cold, soft, faintly floral.",
+      "price": 240,
+      "category": "desserts",
+      "image": "rasmalai.jpg",
+      "isVeg": true,
+      "spiceLevel": 0,
+      "rating": 4.9,
+      "reviewCount": 342,
+      "prepMinutes": 10,
+      "isSignature": true,
+      "allergens": [
+        "Dairy",
+        "Nuts"
+      ]
+    },
+    {
+      "id": 22,
+      "slug": "gajar-halwa",
+      "name": "Gajar ka Halwa",
+      "description": "Grated carrot cooked down in milk and ghee for a long time, until it turns deep orange and jammy. Finished with khoya, cashew and a little cardamom.",
+      "price": 220,
+      "category": "desserts",
+      "image": "gajar-halwa.jpg",
+      "isVeg": true,
+      "spiceLevel": 0,
+      "rating": 4.7,
+      "reviewCount": 214,
+      "prepMinutes": 12,
+      "isSignature": false,
+      "allergens": [
+        "Dairy",
+        "Nuts"
+      ]
+    },
+    {
+      "id": 23,
+      "slug": "masala-chai",
+      "name": "Masala Chai",
+      "description": "Assam leaf boiled hard with milk, ginger, green cardamom and clove. Poured from a height into a small glass, the way it should be.",
+      "price": 120,
+      "category": "drinks",
+      "image": "masala-chai.jpg",
+      "isVeg": true,
+      "spiceLevel": 0,
+      "rating": 4.7,
+      "reviewCount": 503,
+      "prepMinutes": 8,
+      "isSignature": false,
+      "allergens": [
+        "Dairy"
+      ]
+    },
+    {
+      "id": 24,
+      "slug": "mango-lassi",
+      "name": "Mango Lassi",
+      "description": "Alphonso pulp and thick curd, whisked with a pinch of cardamom and served over ice. Cold enough to put out a chilli-based fire.",
+      "price": 160,
+      "category": "drinks",
+      "image": "mango-lassi.jpg",
+      "isVeg": true,
+      "spiceLevel": 0,
+      "rating": 4.8,
+      "reviewCount": 419,
+      "prepMinutes": 6,
+      "isSignature": false,
+      "allergens": [
+        "Dairy"
+      ]
+    }
+  ]
+}

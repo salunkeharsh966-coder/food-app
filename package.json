@@ -1,0 +1,16 @@
+{
+  "name": "saffron-and-smoke",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Saffron & Smoke - modern Indian kitchen. React + Vite frontend, Express + SQLite backend.",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev": "concurrently -n api,web -c yellow,cyan \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "build": "npm run build --prefix client",
+    "start": "npm run start --prefix server",
+    "seed": "npm run seed --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

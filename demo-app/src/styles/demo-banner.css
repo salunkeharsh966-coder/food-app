@@ -1,0 +1,84 @@
+/* Demo-mode banner — only present in the static demo build. */
+.demo-banner {
+  position: relative;
+  z-index: 60;
+  background: linear-gradient(90deg, #2a1a12 0%, #3a2418 100%);
+  border-bottom: 1px solid rgba(232, 163, 61, 0.35);
+  color: var(--cream, #f6efe6);
+  font-size: 0.82rem;
+}
+
+.demo-banner__bar {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.55rem 1rem;
+}
+
+.demo-banner__tag {
+  flex: 0 0 auto;
+  background: var(--saffron, #e8a33d);
+  color: #1a120c;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  font-size: 0.68rem;
+  padding: 0.22rem 0.5rem;
+  border-radius: 4px;
+}
+
+.demo-banner__text {
+  flex: 1 1 260px;
+  margin: 0;
+  line-height: 1.45;
+  color: rgba(246, 239, 230, 0.9);
+}
+
+.demo-banner__text strong { color: var(--saffron-bright, #f5c069); }
+
+.demo-banner__toggle,
+.demo-banner__reset {
+  flex: 0 0 auto;
+  background: transparent;
+  border: 1px solid rgba(246, 239, 230, 0.28);
+  color: var(--cream, #f6efe6);
+  border-radius: 999px;
+  padding: 0.3rem 0.75rem;
+  font-size: 0.76rem;
+  cursor: pointer;
+  transition: background 0.18s ease, border-color 0.18s ease;
+}
+
+.demo-banner__toggle:hover,
+.demo-banner__reset:hover {
+  background: rgba(246, 239, 230, 0.1);
+  border-color: rgba(246, 239, 230, 0.5);
+}
+
+.demo-banner__reset { border-color: rgba(232, 163, 61, 0.5); color: var(--saffron-bright, #f5c069); }
+
+.demo-banner__panel {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.4rem 1rem 1rem;
+  border-top: 1px solid rgba(246, 239, 230, 0.12);
+  color: rgba(246, 239, 230, 0.82);
+  line-height: 1.6;
+}
+
+.demo-banner__panel p { margin: 0.5rem 0; max-width: 78ch; }
+.demo-banner__panel code {
+  background: rgba(0, 0, 0, 0.35);
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+  font-size: 0.85em;
+}
+.demo-banner__note { color: var(--saffron-bright, #f5c069); }
+
+@media (max-width: 560px) {
+  .demo-banner__bar { gap: 0.5rem; padding: 0.5rem 0.75rem; }
+  .demo-banner__text { flex-basis: 100%; font-size: 0.78rem; }
+  .demo-banner__toggle, .demo-banner__reset { font-size: 0.72rem; padding: 0.28rem 0.6rem; }
+}
